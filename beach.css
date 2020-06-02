@@ -1,0 +1,66 @@
+body{
+    max-width: 1500px;
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(body-of-water-near-green-mountain-931018.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    max-width: 1200px;
+}
+ul{
+    list-style-type: none;
+    float: right;
+}
+ul li{ 
+    display: inline-block;
+    /* width: 100px; */
+    margin: 20px; 
+}
+/* ul li a{     OLD
+    text-decoration: none;
+    line-height: 20px ;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px;
+    transition: 0.6 ease;
+} */
+ul li a{        /*NEW*/
+    border: 1px solid transparent;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+}
+ul li a:hover{
+    background: #fff;
+    color: black;
+    transition: 0.6s ease;
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    color: #fff;
+    font-size: 50px;
+}
+.button{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#btn{           /*IMPORTANT*/
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6s ease;
+
+}
+#btn:hover{
+    background: #fff;
+    color: #000000;
+    
+}
+    
